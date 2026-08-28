@@ -56,7 +56,7 @@ const App = () => {
               <input id="dd-toggle" type="checkbox" hidden />
 
               <label className="dd-btn" for="dd-toggle">
-                <span>نمایش{""}
+                <span>نمایش{" "}
                   {filter == "all" ? "همه" : filter=="completed"? "تکمیل شده ها" : "در انتظار انجام"}
                 </span>
                 <i className="fa-solid fa-chevron-down"></i>
