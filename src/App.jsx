@@ -70,7 +70,7 @@ const App = () => {
                   <label for="dd-toggle" className="menu-item" onClick={()=>setFilter("completed")}>
                     تکمیل شده ها
                   </label>
-                  <label for="dd-toggle" className="menu-item" onClick={()=>setFilter("not-Completed")}}>
+                  <label for="dd-toggle" className="menu-item" onClick={()=>setFilter("not-Completed")}>
                     در انتظار انجام
                   </label>
                 </div>
