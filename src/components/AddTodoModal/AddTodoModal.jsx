@@ -36,7 +36,7 @@ const AddTodoModal = ({ onClose, addTodoHandler }) => {
             ></textarea>
             <div className="my-3 flex items-center gap-2">
                 <input checked={isImportant} onChange={(e)=>setIsImportant(e.target.checked)} id="is-important" type="checkbox" />
-                <label for="is-important"> مهم </label>
+                <label htmlFor="is-important"> مهم </label>
             </div>
             <div className="info-message">
                 <p className="inline-flex! items-center gap-1">

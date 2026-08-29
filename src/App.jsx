@@ -55,7 +55,7 @@ const App = () => {
             <div className="dropdown">
               <input id="dd-toggle" type="checkbox" hidden />
 
-              <label className="dd-btn" for="dd-toggle">
+              <label className="dd-btn" htmlFor="dd-toggle">
                 <span>نمایش{" "}
                   {filter == "all" ? "همه" : filter=="completed"? "تکمیل شده ها" : "در انتظار انجام"}
                 </span>
@@ -64,13 +64,13 @@ const App = () => {
 
               <div className="dropdown_menu" role="menu">
                 <div className="py-1">
-                  <label for="dd-toggle" className="menu-item" onClick={()=>setFilter("all")}>
+                  <label htmlFor="dd-toggle" className="menu-item" onClick={()=>setFilter("all")}>
                     همه
                   </label>
-                  <label for="dd-toggle" className="menu-item" onClick={()=>setFilter("completed")}>
+                  <label htmlFor="dd-toggle" className="menu-item" onClick={()=>setFilter("completed")}>
                     تکمیل شده ها
                   </label>
-                  <label for="dd-toggle" className="menu-item" onClick={()=>setFilter("not-Completed")}>
+                  <label htmlFor="dd-toggle" className="menu-item" onClick={()=>setFilter("not-Completed")}>
                     در انتظار انجام
                   </label>
                 </div>
